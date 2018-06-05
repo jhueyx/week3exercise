@@ -1,0 +1,48 @@
+
+
+/*navigation*/
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align:center;
+
+    }
+
+.nav li {
+    display: inline;
+    }
+
+.nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+.nav li a:hover {
+    background-color: red;
+    border: ridge;
+    transition: 0.5s ease;
+    font-size: 50px;
+    color: orange;
+    }
+
+
+/*buttons*/
+
+button {  
+    background-color: #0000ff;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none; }
+
+button:hover {
+    background-color: #0000ff52;
+    color: #FFF;
+}
